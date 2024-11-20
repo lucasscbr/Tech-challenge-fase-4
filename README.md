@@ -32,7 +32,7 @@ Este projeto utiliza redes neurais do tipo Long Short-Term Memory (LSTM) para pr
 ### 5️⃣ Monitoramento
 
 - Implementado monitoramento básico com **logging**, registrando tempo de resposta das requisições.
-- Mensagens de log são salvas em um arquivo chamado `app.log`.
+- Mensagens de log são salvas no arquivo `app.log`.
   
 ## 🚀 **Executando o Projeto**
 
@@ -82,6 +82,7 @@ Envie uma requisição POST para o endpoint `/predict` com o seguinte corpo JSON
 ├── app.py                   # Código da API Flask
 ├── requirements.txt         # Dependências do projeto
 ├── modelo_lstm_itub4.h5     # Modelo LSTM treinado
+├── app.log                  # Logs salvos
 └── README.md                # Documentação do projeto
 ```
 
